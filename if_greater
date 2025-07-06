@@ -1,0 +1,35 @@
+; Determine the larger of two signed 32‑bit integers read from stdin
+; Requires io.inc (GET_DEC / PRINT_DEC macros)
+
+%include "io.inc"
+
+section .data
+    a dd 0           ; first input
+    b dd 0           ; second input
+    r dd 0           ; result (max)
+
+section .text
+    global CMAIN
+CMAIN:
+    ; Read inputs
+    GET_DEC 4, [a]   ; read first integer -> a
+    GET_DEC 4, [b]   ; read second integer -> b
+
+    ; Compare and select 
+    mov  eax, [a]
+    mov  ecx, [b]
+
+    cmp  eax, ecx    ; compare a vs b
+    jg   greater     ; jump if a > b
+
+    mov  [r], ecx    ; otherwise r = b
+    jmp  print
+
+greater:
+    mov  [r], eax    ; r = a
+
+print:
+    PRINT_DEC 4, [r] ; output result
+
+    xor  eax, eax    ; return 0 to OS
+    ret
