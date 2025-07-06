@@ -1,6 +1,8 @@
+# Learning jounral
+
 ## 06.07.2025
 
-    Learned topics:
+### Learned topics:
 - Stack
 - Heap
 - Polymorphism
@@ -9,17 +11,17 @@
 - How the `return` statement works
 - What "The Stack" is (stack frame concept)
 
-    Code written:
+### Code written:
 - Implemented an `if` statement and multiplication/division of two numbers in NASM x86 (Windows)
 
-    Plans for tomorrow:
+### Plans for tomorrow:
 - Start reading *Programming from the Ground Up* by Jonathan Bartlett
 - Write a `for` loop in assembly
 - Implement the `strlen` function in assembly
 - Start learning the C programming language (memory, data types)
 - Read production incident post-mortem reports
 
-    Future plans:
+### Future plans:
 - DO LEETCODE DAILY !!!
 - Learn DevOps (Docker, CI/CD, Cloud – AWS, Azure)
 - Unit and integration testing (xUnit, NUnit)
@@ -35,7 +37,7 @@
 - Using `perf` reports and analyzing cache misses
 - Working with system calls
 
-    Where I see myself in the future:
+### Where I see myself in the future:
 - Working as a software engineer (low-level or backend)
 - Highly proficient in C, Assembly, C#, .NET, and memory management
 - Contributing to the development of complex systems (compilers, OS components, backend services)
