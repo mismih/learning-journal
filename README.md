@@ -20,6 +20,7 @@
 - Read production incident post-mortem reports
 
     Future plans:
+- DO LEETCODE DAILY !!!
 - Learn DevOps (Docker, CI/CD, Cloud – AWS, Azure)
 - Unit and integration testing (xUnit, NUnit)
 - Profiling and logging (OpenTelemetry, Serilog)
