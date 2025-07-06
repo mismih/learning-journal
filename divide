@@ -1,0 +1,23 @@
+%include "io.inc"
+
+section .data
+    c dd 0
+    d dd 0
+    r dd 0
+
+section .text
+    global CMAIN
+CMAIN:
+    GET_DEC 4, [c]     ; numerator
+    GET_DEC 4, [d]     ; denominator
+
+    mov eax, [c]
+    cdq                ; sign‑extend EAX into EDX:EAX
+    mov ebx, [d]
+    idiv ebx           ; EAX = quotient, EDX = remainder
+
+    mov [r], eax       ; r = EAX
+    PRINT_DEC 4, [r]   ; print r
+
+    xor eax, eax
+    ret
