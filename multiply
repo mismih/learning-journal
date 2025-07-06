@@ -1,0 +1,22 @@
+%include "io.inc"
+
+section .data
+    a dd 0
+    b dd 0
+    r dd 0
+
+section .text
+    global CMAIN
+CMAIN:
+    GET_DEC 4, [a]     ; read first integer → a
+    GET_DEC 4, [b]     ; read second integer → b
+
+    mov eax, [a]
+    mov ebx, [b]
+    imul ebx           ; EAX = EAX * EBX
+
+    mov [r], eax
+    PRINT_DEC 4, [r]   ; print result
+
+    xor eax, eax
+    ret
