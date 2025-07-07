@@ -47,5 +47,18 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 - Start reading *Programming from the Ground Up* by Jonathan Bartlett
 - Write a `for` loop in assembly
 - Implement the `strlen` function in assembly
-- Start learning the C programming language (memory, data types)
 - Read production incident post-mortem reports
+
+## 7.7.2025
+
+### Learned topics:
+- C++ basics
+
+## Code written:
+- Did some leetcode and neetcode in c++
+- Started with for-loop in asm
+
+## Plans for tomorrow:
+- Do more c++ 
+- Implement the 'strlen' function in assembly
+- Install linux on USB (debian/ubuntu)
