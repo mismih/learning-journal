@@ -67,7 +67,9 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 ## Code written:
 - Did some leetcode
 - Made `strlen` function in assembly
+- Made data structures & algorithms roadmap (theory and problems)
+- started with arrays and vectors
 
 ## Plans for tommorow:
-- start learning data structures & algorithms
+- Linked list (singly/double, head/tails, insert/delete) 
 - Do more c++ and asm
