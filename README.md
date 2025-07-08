@@ -60,5 +60,5 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 
 ## Plans for tomorrow:
 - Do more c++ 
-- Implement the 'strlen' function in assembly
+- Implement the `strlen` function in assembly
 - Install linux on USB (debian/ubuntu)
