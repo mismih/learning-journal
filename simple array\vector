@@ -1,0 +1,33 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    // static array
+    int staticArray[5] = {10, 20, 30, 40, 50};
+    cout << "staticArray[2] = " << staticArray[2] << endl;
+
+    // dynamic array with new/delete
+    int n = 5;
+    int* dynamicArray = new int[n];
+    for (int i = 0; i < n; i++) {
+        dynamicArray[i] = i * 10;
+    }
+    cout << "dynamicArray[2] = " << dynamicArray[2] << endl;
+    delete[] dynamicArray;
+
+    // vector
+    vector<int> vec;
+    vec.push_back(10);
+    vec.push_back(20);
+    vec.push_back(30);
+    vec.push_back(40);
+    vec.push_back(50);
+    vec.erase(vec.begin() + 3);
+
+    int index = 3;
+    cout << "vec[" << index << "] = " << vec[index] << endl;
+
+    return 0;
+}
