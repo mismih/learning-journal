@@ -1,0 +1,24 @@
+%include "io.inc"
+
+section .data
+    myString db 'Hello, world!', 0
+
+section .text
+global CMAIN
+CMAIN:
+    mov esi, myString
+    xor ecx, ecx        
+
+count_loop:
+    cmp byte [esi], 0
+    je done
+    inc esi
+    inc ecx
+    jmp count_loop
+
+done:
+    mov eax, ecx
+    PRINT_DEC 4, eax
+    NEWLINE
+
+    ret
