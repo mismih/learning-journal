@@ -61,4 +61,13 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 ## Plans for tomorrow:
 - Do more c++ 
 - Implement the `strlen` function in assembly
-- Install linux on USB (debian/ubuntu)
+
+## 8.7.2025.
+
+## Code written:
+- Did some leetcode
+- Made `strlen` function in assembly
+
+## Plans for tommorow:
+- start learning data structures & algorithms
+- Do more c++ and asm
