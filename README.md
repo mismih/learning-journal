@@ -56,7 +56,7 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 
 ## Code written:
 - Did some leetcode and neetcode in c++
-- Started with for-loop in asm
+- Started with `for` loop in asm
 
 ## Plans for tomorrow:
 - Do more c++ 
