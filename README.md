@@ -54,11 +54,11 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 ### Learned topics:
 - C++ basics
 
-## Code written:
+### Code written:
 - Did some leetcode and neetcode in c++
 - Started with `for` loop in asm
 
-## Plans for tomorrow:
+### Plans for tomorrow:
 - Do more c++ 
 - Implement the `strlen` function in assembly
 
