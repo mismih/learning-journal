@@ -64,12 +64,12 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 
 ## 8.7.2025.
 
-## Code written:
+### Code written:
 - Did some leetcode
 - Made `strlen` function in assembly
 - Made data structures & algorithms roadmap (theory and problems)
 - started with arrays and vectors
 
-## Plans for tommorow:
+### Plans for tommorow:
 - Linked list (singly/double, head/tails, insert/delete) 
 - Do more c++ and asm
