@@ -73,3 +73,15 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 ### Plans for tommorow:
 - Linked list (singly/double, head/tails, insert/delete) 
 - Do more c++ and asm
+
+## 8.7.2025.
+
+### Learned topics:
+- Linked list
+
+### Code written:
+- Did some leetcode
+
+### Plans for tommorow 
+- start making minesweeper with friends in unity
+- Learn stack and queue
