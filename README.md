@@ -74,7 +74,7 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 - Linked list (singly/double, head/tails, insert/delete) 
 - Do more c++ and asm
 
-## 8.7.2025.
+## 9.7.2025.
 
 ### Learned topics:
 - Linked list
