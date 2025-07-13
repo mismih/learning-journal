@@ -1,0 +1,85 @@
+#include <iostream>
+using namespace std;
+
+struct DNode {
+    int data;
+    DNode* prev;
+    DNode* next;
+
+    DNode(int value) : data(value), prev(nullptr), next(nullptr) {}
+};
+
+class DoublyLinkedList {
+private:
+    DNode* head;
+    DNode* tail;
+
+public:
+    DoublyLinkedList() : head(nullptr), tail(nullptr) {}
+
+    // Insert at end
+    void insert(int value) {
+        DNode* newNode = new DNode(value);
+        if (head == nullptr) {
+            head = tail = newNode;
+        } else {
+            tail->next = newNode;
+            newNode->prev = tail;
+            tail = newNode;
+        }
+    }
+
+    // Delete by value
+    void deleteNode(int value) {
+        DNode* current = head;
+        while (current && current->data != value) {
+            current = current->next;
+        }
+        if (!current) return;
+
+        if (current == head) head = current->next;
+        if (current == tail) tail = current->prev;
+
+        if (current->prev) current->prev->next = current->next;
+        if (current->next) current->next->prev = current->prev;
+
+        delete current;
+    }
+
+    void printForward() {
+        DNode* current = head;
+        cout << "Forward: ";
+        while (current) {
+            cout << current->data << " <-> ";
+            current = current->next;
+        }
+        cout << "nullptr" << endl;
+    }
+
+    void printBackward() {
+        DNode* current = tail;
+        cout << "Backward: ";
+        while (current) {
+            cout << current->data << " <-> ";
+            current = current->prev;
+        }
+        cout << "nullptr" << endl;
+    }
+};
+
+int main() {
+    DoublyLinkedList list;
+    list.insert(100);
+    list.insert(200);
+    list.insert(300);
+
+    list.printForward();
+    list.printBackward();
+
+    list.deleteNode(200);
+
+    list.printForward();
+    list.printBackward();
+
+    return 0;
+}
