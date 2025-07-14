@@ -85,3 +85,15 @@ My ultimate goal is to become a top-tier software engineer, mastering the craft 
 ### Plans for tommorow 
 - start making minesweeper with friends in unity
 - Learn stack and queue
+
+## 10.7.2025. - 14.7.2025.
+
+### Code written:
+- did leetcode daily/problems
+- did asm
+- was working on minesweeper
+
+### Learned topics:
+- Linked list
+- Hash table
+
